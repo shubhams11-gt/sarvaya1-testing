@@ -86,3 +86,13 @@ function animateCircles() {
 }
 animateCircles();
 
+// ----------------------------
+
+function locoInitialize(){
+  const scroll = new LocomotiveScroll({
+      el: document.querySelector('.main'),
+      smooth: true
+  });    
+}
+
+locoInitialize();
